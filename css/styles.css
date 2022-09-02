@@ -1,0 +1,27 @@
+.logo {
+color: rgb(33,150,243);
+ /* #2196F3;    */
+}
+.list {
+    list-style: none;
+}
+a { 
+    text-decoration-line: none;
+}
+.link{
+    color:#212121;
+}
+.link:hover,
+.link:focus {
+    color:#2196F3;
+}
+.section {
+    color: #212121;
+}
+.text, .contact-nav {
+    color: #757575;
+}
+.contact-nav:hover,
+.contact-nav:focus {
+    color: #2196F3;
+}
