@@ -6,6 +6,7 @@
   --secondary-text-color: #ffffff;
   --background-btn-color: #188ce8;
   --portfolio-btn-color: #f5f4fa;
+  --contact-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -22,6 +23,10 @@ body {
   color: #000000;
 }
 .logo {
+  color: var(--active-elements-color);
+}
+.link-logo:hover,
+.link-logo:focus {
   color: var(--active-elements-color);
 }
 /* nav-link */
@@ -173,4 +178,20 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--active-elements-color);
+}
+.address-link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.contact-link {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--contact-link-color);
 }
