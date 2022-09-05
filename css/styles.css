@@ -7,10 +7,12 @@
   --background-btn-color: #188ce8;
   --portfolio-btn-color: #f5f4fa;
   --contact-link-color: rgba(255, 255, 255, 0.6);
+  --link-logo-color: #000000;
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--text-color-priority);
 }
 /* logo */
@@ -20,7 +22,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--link-logo-color);
 }
 .logo {
   color: var(--active-elements-color);
@@ -37,7 +39,6 @@ a {
 .link {
   color: var(--text-color-priority);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
 }
 .link:hover,
@@ -47,7 +48,6 @@ a {
 .contact-nav {
   color: var(--secondary-color-priority);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
@@ -109,15 +109,11 @@ a {
 }
 .list-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.15;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .text {
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--secondary-color-priority);
 }
 /* section what we do and team section */
@@ -126,18 +122,15 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .photo-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 .text-photo {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 
   color: var(--secondary-color-priority);
 }
@@ -150,7 +143,6 @@ a {
   line-height: 1.6;
   text-align: center;
   cursor: pointer;
-  letter-spacing: 0.03em;
   color: var(--text-color-priority);
   background-color: var(--portfolio-btn-color);
 }
@@ -168,7 +160,6 @@ a {
 .list-text {
   font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.03em;
   color: var(--secondary-color-priority);
 }
 
@@ -178,7 +169,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .footer-logo:hover,
@@ -186,14 +176,12 @@ a {
   color: var(--active-elements-color);
 }
 .address-link {
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .contact-link {
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--contact-link-color);
 }
